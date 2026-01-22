@@ -51,6 +51,9 @@ def filter_users_by_email(email):
 
 
 def main():
+    """
+    gets user input and calls filter functions
+    """
     filter_option = (
         input(
             "What would you like to filter by? (Currently 'name', 'age' and 'email' are supported): "
